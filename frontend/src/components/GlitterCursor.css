@@ -1,0 +1,53 @@
+.glitter-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #B76E79 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+  animation: pulse 1.5s infinite;
+}
+
+.glitter-particle {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9998;
+  border-radius: 50%;
+  transform-origin: center;
+  animation: sparkle 0.5s ease-out forwards;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 1;
+  }
+}
+
+@keyframes sparkle {
+  0% {
+    transform: rotate(0deg) scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Hide default cursor */
+body {
+  cursor: none;
+}
+
+/* Show pointer cursor on interactive elements */
+a, button, [role="button"], input, textarea, select {
+  cursor: pointer !important;
+}

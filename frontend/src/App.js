@@ -4,6 +4,7 @@ import { Toaster } from './components/ui/sonner';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import GlitterCursor from './components/GlitterCursor';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import ProductDetails from './pages/ProductDetails';
@@ -14,6 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <GlitterCursor />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
