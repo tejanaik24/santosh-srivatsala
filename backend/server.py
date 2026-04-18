@@ -121,13 +121,13 @@ async def get_store_info():
         else:
             # Return default store info
             return {
-                "name": "Santosh Jewellers",
+                "name": "Srivatsala Jewellers - Silver House",
                 "address": "MG Road, Visakhapatnam",
                 "city": "Visakhapatnam",
                 "state": "Andhra Pradesh",
                 "pincode": "530002",
                 "phone": "+91 98765 43210",
-                "email": "contact@santoshjewellers.com",
+                "email": "contact@srivatsalajewellers.com",
                 "latitude": 17.6868,
                 "longitude": 83.2185,
                 "timings": "Mon-Sat: 10:00 AM - 8:00 PM, Sunday: 10:00 AM - 6:00 PM"

@@ -13,9 +13,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-amber-200">Santosh Jewellers</h3>
+            <h3 className="text-xl font-bold mb-4 text-amber-200">Srivatsala Jewellers</h3>
             <p className="text-amber-100 text-sm leading-relaxed mb-4">
-              Trusted for 15 years in Vizag, we bring you the finest Andhra traditional gold jewelry with authentic designs and exceptional craftsmanship.
+              Trusted for 15 years in Vizag, we bring you the finest Andhra traditional gold & silver jewelry with authentic designs and exceptional craftsmanship.
             </p>
             <div className="flex gap-3">
               <a
@@ -135,7 +135,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-amber-700 mt-8 pt-6 text-center">
           <p className="text-amber-200 text-sm">
-            © 2025 Santosh Jewellers. All rights reserved. | 15 Years of Trust & Quality
+            © 2025 Srivatsala Jewellers - Silver House. All rights reserved. | 15 Years of Trust & Quality
           </p>
         </div>
       </div>

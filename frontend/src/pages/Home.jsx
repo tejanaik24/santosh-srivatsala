@@ -14,12 +14,12 @@ const Home = () => {
       <div className="mt-32 md:mt-36">
         <HeroSlider />
         <AkshayaTritiyaOffers />
-        <FounderSection />
         <Categories />
         <FeaturedProducts />
         <CustomizeSection />
         <WhyChooseUs />
         <Testimonials />
+        <FounderSection />
       </div>
     </div>
   );

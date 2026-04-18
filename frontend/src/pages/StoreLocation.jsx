@@ -178,7 +178,7 @@ const StoreLocation = () => {
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Santosh Jewellers Location"
+                  title="Srivatsala Jewellers Location"
                   className="w-full h-full min-h-[600px]"
                 ></iframe>
               </div>

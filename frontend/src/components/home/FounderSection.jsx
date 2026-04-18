@@ -44,15 +44,15 @@ const FounderSection = () => {
             </h3>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              With over 15 years of dedicated experience in the gold jewelry business, Santosh has established 
+              With over 15 years of dedicated experience in the gold and silver jewelry business, Santosh has established 
               himself as a trusted name in Visakhapatnam. His passion for traditional Andhra designs and 
-              commitment to quality has made Santosh Jewellers the preferred destination for families across generations.
+              commitment to quality has made Srivatsala Jewellers - Silver House the preferred destination for families across generations.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
               Every piece of jewelry is crafted with meticulous attention to detail, blending age-old techniques 
-              with contemporary aesthetics. Santosh believes in creating not just jewelry, but cherished memories 
-              that last a lifetime.
+              with contemporary aesthetics. From exquisite gold necklaces to intricate silver pieces, Santosh believes 
+              in creating not just jewelry, but cherished memories that last a lifetime.
             </p>
 
             {/* Stats */}

@@ -53,13 +53,15 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-amber-600 to-amber-800 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">S</span>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-amber-800">Santosh Jewellers</h1>
-              <p className="text-xs text-gray-600">Traditional Andhra Designs</p>
+          <Link to="/" className="flex items-center gap-2">
+            <div className="w-32 h-16">
+              <svg width="100%" height="100%" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                <path d="M120 180C100 180 85 165 85 145C85 125 105 110 125 110C145 110 160 125 160 145C160 165 140 185 120 190C100 195 75 185 75 155C75 125 100 100 135 85C170 70 215 65 260 65C285 65 310 70 330 80" 
+                      stroke="#B76E79" strokeWidth="3" strokeLinecap="round" fill="none"/>
+                <text x="165" y="155" fill="#B76E79" fontFamily="'Playfair Display', serif" fontSize="52" letterSpacing="4" fontWeight="400">RIVATSALA</text>
+                <text x="370" y="200" textAnchor="middle" fill="#B76E79" fontFamily="'Montserrat', sans-serif" fontSize="20" letterSpacing="10" fontWeight="300">SILVER HOUSE</text>
+                <text x="370" y="230" textAnchor="middle" fill="#B76E79" fontFamily="'Montserrat', sans-serif" fontSize="11" letterSpacing="4" fontWeight="400">GOLD &amp; SILVER JEWELLERY</text>
+              </svg>
             </div>
           </Link>
 

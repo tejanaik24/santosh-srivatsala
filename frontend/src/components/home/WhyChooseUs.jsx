@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mb-4">
-            Why Choose Santosh Jewellers?
+            Why Choose Srivatsala Jewellers?
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Experience the perfect blend of tradition, quality, and trust
