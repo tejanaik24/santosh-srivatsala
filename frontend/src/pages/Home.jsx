@@ -11,6 +11,7 @@ import WhyChooseUs from '../components/home/WhyChooseUs';
 import CustomizeSection from '../components/home/CustomizeSection';
 import Testimonials from '../components/home/Testimonials';
 import FounderSection from '../components/home/FounderSection';
+import LocationBanner from '../components/home/LocationBanner';
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
         <CustomizeSection />
         <Testimonials />
         <FounderSection />
+        <LocationBanner />
       </div>
     </div>
   );

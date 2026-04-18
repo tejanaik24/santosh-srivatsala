@@ -105,8 +105,9 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-amber-300 flex-shrink-0 mt-1" />
                 <span className="text-amber-100 text-sm">
-                  MG Road, Visakhapatnam<br />
-                  Andhra Pradesh - 530002
+                  Opposite Gayathri Clinic, Revallapalem Road<br />
+                  Madhurawada, Visakhapatnam - 530048<br />
+                  Andhra Pradesh
                 </span>
               </li>
               <li className="flex items-center gap-3">

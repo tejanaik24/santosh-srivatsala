@@ -122,14 +122,14 @@ async def get_store_info():
             # Return default store info
             return {
                 "name": "Srivatsala Jewellers - Silver House",
-                "address": "MG Road, Visakhapatnam",
+                "address": "Opposite Gayathri Clinic, Revallapalem Road, Madhurawada",
                 "city": "Visakhapatnam",
                 "state": "Andhra Pradesh",
-                "pincode": "530002",
+                "pincode": "530048",
                 "phone": "+91 98765 43210",
                 "email": "contact@srivatsalajewellers.com",
-                "latitude": 17.6868,
-                "longitude": 83.2185,
+                "latitude": 17.7833,
+                "longitude": 83.3833,
                 "timings": "Mon-Sat: 10:00 AM - 8:00 PM, Sunday: 10:00 AM - 6:00 PM"
             }
     except Exception as e:
